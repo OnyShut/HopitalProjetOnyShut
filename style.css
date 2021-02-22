@@ -93,6 +93,7 @@ nav#menu li:hover a{
 .services h6{text-transform: uppercase; margin-top: 4%; margin-bottom: 10px;}
 .services p{margin-bottom: 8px;}
 
+section#about{text-align: center;}
 .about{ font-family:'Maven Pro'; margin: 2% 0 0 3%; color: #1e272e;}
 .about h3 {text-align: center; margin-bottom: 10px;}
 .conteneur {overflow: hidden; text-align: center; }
