@@ -1,0 +1,165 @@
+body,div,fieldset,input,img,select,li ,ul, p, h1, h2, h3, h4, h5, h6, iframe
+{
+	margin:0;
+	padding:0;
+	border:0;
+	text-decoration:none;
+	outline:none;
+	list-style:none;
+	vertical-align:bottom;
+	white-space:normal;
+}
+body {background: #e9e9e9;}
+span {font-weight: 700; color: #10A1CD;}
+
+header a {transition: 0.4s; font-family: 'Maven Pro'; color: #10A1CD; text-transform: uppercase; text-decoration: none;}
+header a:link {color: #10A1CD;}
+header a:visited {color: #10A1CD;}
+header a:hover{text-decoration: underline;}
+textarea {  resize: none;}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#navbar{font-family: 'Open Sans';}
+nav#menu{
+	width: 100%;
+	background-color: #2f3640;
+	z-index: 1000;
+
+}
+
+nav#menu ul{
+	margin: 0px;
+	padding:0px;
+
+}
+
+nav#menu li {
+	list-style-type: none;
+	float: left;
+}
+
+nav#menu a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+nav#menu li a{
+	font-size: 1.2em;
+	padding: 10px;
+	transition: 0.4s;
+	border-bottom:5px solid #2f3640;
+}
+nav#menu li:hover a{
+	background: #2c5e6d;
+	border-bottom:5px solid #10A1CD;
+}
+
+
+.clear {clear: both;}
+.left {float: left;}
+.right {float: right;}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+
+.accueil{float: right; color :#1e272e; font-size: 150%; font-family: 'open Sans'; margin: 12% 12% 0 0; overflow: hidden;}
+.accueil h4{text-transform: uppercase; margin-bottom: 1%;}
+.accueil a { display: block; margin-left: auto; margin-right: auto; transition: 0.2s;display: inline;}
+.accueil a:link {color: #1e272e;}
+.accueil a:visited {color: #1e272e;}
+.accueil a:hover {color:#10A1CD;cursor: pointer;}
+
+.infos {text-align: center; font-family:'Maven Pro'; margin: 2% 0 0 3%; color: #1e272e;}
+.infos h3{margin-top: 10px; margin-bottom:2px;}
+
+.services {margin-left: 4%; margin-bottom: 4%; font-family:'Maven Pro'; font-size: 120%; color: #1e272e;}
+.services h3{margin-bottom: 5px;}
+.services h6{text-transform: uppercase; margin-top: 4%; margin-bottom: 10px;}
+.services p{margin-bottom: 8px;}
+
+.about{ font-family:'Maven Pro'; margin: 2% 0 0 3%; color: #1e272e;}
+.about h3 {text-align: center; margin-bottom: 10px;}
+.conteneur {overflow: hidden; text-align: center; }
+.aboutlist{display: inline-block; margin-bottom: 4%; margin-top: 10px; margin-left: 10px; margin-right: 10px; text-transform: uppercase; font-size: 1.2em}
+
+.rdv{font-family: 'Maven Pro'}
+.formulaire{background: #2f3640; text-align: center; padding: 10px 0 0 0;}
+.formulaire h1{text-transform: uppercase; margin-bottom: 15px; margin-top: 10px;}
+.formulaire h5{color:#e9e9e9;}
+.imgrdv {position: relative;text-align: left;}
+
+form {
+   flex-wrap: wrap;
+   font-family: 'Open Sans';
+}
+
+input { border: none; background:#e9e9e9; border-radius: .25rem; padding: 0.9rem 1rem;}
+.date{ border: none; background:#e9e9e9; border-radius: .25rem; padding: .75rem 1.5rem;}
+.area{ border: none; background:#e9e9e9; border-radius: .25rem; padding: .75rem 1rem; margin-top:1%; width: 785px; height: 185px;}
+button { border: none; background:#10A1CD; border-radius: .25rem; padding: .9rem 1rem; transition:0.4s;color: #e9e9e9}
+button:hover {text-decoration: underline; background: #2c5e6d;}
+button#contact { border: none; background:#10A1CD; border-radius: .25rem; padding: .9rem 24rem; transition:0.4s;color: #e9e9e9; margin-bottom: 15px; margin-top: 5px;}
+button#contact:hover {text-decoration: underline; background: #2c5e6d;}
+
+.application {float: left; color :#1e272e; font-size: 120%; font-family: 'open Sans'; margin-left: 4%; margin-top: 250px; overflow: hidden;}
+.application h4{text-transform: uppercase; margin-bottom: 1%;}
+.application a { display: block; margin-left: auto; margin-right: auto; transition: 0.2s;display: inline; margin-right: 15px;}
+.application a:link {color: #1e272e;}
+.application a:visited {color: #1e272e;}
+.application a:hover {color:#10A1CD;cursor: pointer;}
+
+.doctors h3 {text-align: center; font-family: 'Maven Pro';}
+.doctors h6 {text-align: center; font-family: 'Maven Pro'; margin-bottom: 3%;}
+section#doctors {text-align: center; font-family: 'open Sans'; margin-bottom: 1000px;}
+.medecinslist{float: left; width: 400px; height: 800px; display: block; margin: 2% 2% 12% 2%;text-align: center;}
+
+.img1{transition: 0.4s;}
+.img1:hover{background:#b5b5b5 ;}
+.img2{transition: 0.4s;}
+.img2:hover{background:#b5b5b5 ;}
+.img3{transition: 0.4s;}
+.img3:hover{background:#b5b5b5 ;}
+
+section#contact{padding-top: 15px;}
+
+section#news{text-align: center; font-family: 'Maven Pro';padding-top: 75px;}
+section#news h4{margin-bottom: 10px;}
+.article1{margin-bottom: 15px;}
+.artimg1{display: block; margin-left: auto;margin-right: auto; transition: 0.4s; }
+.artimg1:hover{opacity: 75%;}
+.artimg2{display: block; margin-left: auto;margin-right: auto; transition: 0.4s; }
+.artimg2:hover{opacity: 75%;}
+.artimg3{display: block; margin-left: auto;margin-right: auto; transition: 0.4s; }
+.artimg3:hover{opacity: 65%;}
+
+section#facts{text-align: center; font-family: 'Maven Pro'; margin-top: 10px;}
+ul#facts li{display: inline-block;margin-top: 15px; margin-bottom: 40px; margin-right: 100px; margin-left: 80px;}
+.linkfooter {color:#f5f6fa; text-decoration: none; margin-bottom: 10px;}
+.contactfooter {margin-top: 10px; margin-bottom: 10px;}
+
+.tem p {margin-bottom: 15px; }
+
+
+ul#med li {display: inline-block; margin: 15px 15px 0 15px;font-style: italic;}
+footer {text-align: center; font-size: 1em; color: #f5f6fa; margin:3% 0 0% 0;background: #2f3640; text-decoration: none;font-family: 'Open Sans';}
+footer h2 {text-transform: uppercase; color:#10A1CD; margin-top: 10px; font-family:'Maven Pro'}
+footer a {transition: 0.4s;}
+footer a:link {color: #f5f6fa;}
+footer a:visited {color: #f5f6fa;}
+footer a:hover{text-decoration: underline;}
